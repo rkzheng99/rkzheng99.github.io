@@ -1,3 +1,13 @@
+---
+permalink: /
+title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 
 I am a second-year PhD student at the University of Hong Kong, advised by [Hengshuang Zhao](https://hszhao.github.io/). My research interest includes video instance segmentation, video generation, and large language models. 
 
