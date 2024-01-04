@@ -15,7 +15,7 @@ Publications
 ======
 - <font color=Blue>TMT-VIS: Taxonomy-aware Multi-dataset Joint Training for Video Instance Segmentation</font>
 **Rongkun Zheng**, Lu Qi, Xi Chen, Yi Wang, Kun Wang, Yu Qiao, Hengshuang Zhao.
-Neural Information Processing Systems (NeurIPS), 2023. [ [Paper](https://arxiv.org/abs/2312.06630) ]
+Neural Information Processing Systems (NeurIPS), 2023. [ [Paper](https://arxiv.org/abs/2312.06630) ] [[Code](https://github.com/rkzheng99/TMT-VIS)]
 
 
 
