@@ -121,6 +121,7 @@
             </td>
           </tr>  
 
+
           <tr onmouseout="malle_stop()" onmouseover="malle_start()">
             <td style="padding:20px;width:30%;vertical-align:middle">
               <div class="one">
@@ -157,6 +158,44 @@
               <p>
                 In this work, we analyze the cause of this phenomenon and the limitations of the current solutions, and propose to conduct synchronized modeling via a new framework named SyncVIS. 
               </p>
+            </td>
+          </tr>  
+
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/disco.png' width="300">
+                </div>
+                <img src='images/disco.png' width="300">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:top">
+              <a href="">
+                <papertitle>DisCo: Towards Distinct and Coherent Visual Encapsulation in Video MLLMs </papertitle>
+              </a>
+              <br>
+              Jiahe Zhao, <strong>Rongkun Zheng</strong>, Yi Wang, Helin Wang, Hengshuang Zhao
+              <br>
+              <!--<em>ICML</em>, 2022 &nbsp <font color="red"><strong>(Spotlight)</strong></font> -->
+              <em>ICCV</em>, 2025
+
+              <br>
+              <a>pdf</a> /
+              <a>code</a>
+              <p></p>
+              <p>
+                We introduce DisCo, a novel visual encapsulation method designed to yield semantically distinct and temporally coherent visual tokens for video MLLMs.               </p>
             </td>
           </tr>  
 
