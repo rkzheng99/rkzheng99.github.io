@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Rongkun Zheng (郑荣坤)</title>
+
+    <meta name="author" content="Rongkun Zheng">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/jpg" href="images/hku_icon.jpeg">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+    <script type="text/javascript">
+
+      function display(id) {
+        var traget = document.getElementById(id);
+        if (traget.style.display == "none") {
+          traget.style.display = "";
+        } else {
+          traget.style.display = "none";
+        }
+      }  
+    </script>
+
+  </head>
+
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name" style="text-align: center; font-size: 28px;">
+                  Rongkun Zheng
+                </p>
+                <p>
+                  I am a fourth-year (starting from 2022) Ph.D. student at <a href="https://www.hku.hk/">the University of Hong Kong</a>, supervised by Prof. <a
+                  href="https://hszhao.github.io/">Hengshuang Zhao</a>. Before that, I received my B.Eng. from <a href="https://www.tsinghua.edu.cn/en/index.htm">Tsinghua University</a> in 2022. I've done internships with 
+                  <a href="https://www.sensetime.com/cn">SenseTime</a>, and <a href="https://www.shlab.org.cn/">Shlab</a>.
+                </p>
+                <p>
+                  My research interests lie in the field of deep learning and computer vision, I've published multiple research works for video perception, open-world multi-modal learning, and video understanding.
+                  Now I have interests in MLLM and reinforcement learning. 
+                </p>
+                <p>
+                  <font color="red">Update: On job market now! Drop me an email if you are interested.</font>
+                </p>
+
+                <p style="text-align:center">
+                  <a href="mailto:rkzheng99@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <a href="data/郑荣坤_个人简历_最新.pdf">CV</a> &nbsp/&nbsp
+                  <a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&hl=zh-CN&user=tmYMcg8AAAAJ">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/rkzheng99/">Github</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="images/rkzheng.png"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/rkzheng.png" class="hoverZoomLink"></a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table
+          style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
+            <tr>
+              <td style="padding:20px;width:100%;vertical-align:middle">
+                <heading style="font-size: 22px;">
+                  Selected Publications
+                </heading>
+                <p>
+                  <a href="https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&hl=zh-CN&user=tmYMcg8AAAAJ">Google Scholar</a> 
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      <table
+        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:40%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/Seg-VAR.png' width="300">
+                </div>
+                <img src='images/Seg-VAR.png' width="300">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:60%;vertical-align:top">
+              <a href="https://arxiv.org/abs/2407.14500">
+                <papertitle>Seg-VAR:Image Segmentation with Visual Autoregressive Modeling</papertitle>
+              </a>
+              <br>
+              <strong>Rongkun Zheng</strong>, Lu Qi, Xi Chen, Yi Wang, Kun Wang, Yu Qiao, Hengshuang Zhao
+              <br>
+              <!--<em>ICML</em>, 2022 &nbsp <font color="red"><strong>(Spotlight)</strong></font> -->
+              <em>NeurIPS</em>, 2025
+
+              <br>
+              <a href="https://neurips.cc/virtual/2025/poster/118153">pdf</a> /
+              <a href="https://github.com/rkzheng99/ViLLa">code</a>
+              <p></p>
+              <p>
+                We propose Seg-VAR, a novel framework that rethinks segmentation as a conditional autoregressive mask generation problem. 
+                This is achieved by replacing the discriminative learning with the latent learning process.
+                
+              </p>
+            </td>
+          </tr> 
+
+
+          
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:40%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/ViLLa.png' width="300">
+                </div>
+                <img src='images/ViLLa.png' width="300">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:60%;vertical-align:top">
+              <a href="https://arxiv.org/abs/2407.14500">
+                <papertitle>ViLLa: Video Reasoning Segmentation with Large Language Model</papertitle>
+              </a>
+              <br>
+              <strong>Rongkun Zheng</strong>, Lu Qi, Xi Chen, Yi Wang, Kun Wang, Yu Qiao, Hengshuang Zhao
+              <br>
+              <!--<em>ICML</em>, 2022 &nbsp <font color="red"><strong>(Spotlight)</strong></font> -->
+              <em>ICCV</em>, 2025
+
+              <br>
+              <a href="https://arxiv.org/abs/2407.14500">pdf</a> /
+              <a href="https://github.com/rkzheng99/ViLLa">code</a>
+              <p></p>
+              <p>
+                Our ViLLa is an effective and efficient LMM capable of segmenting and tracking with reasoning capabilities. It can handle complex video reasoning segmentation tasks, such as: 
+                (a) segmenting objects with complex interactions; (b) segmenting objects with complex motion; (c) segmenting objects in long videos with occlusions.
+                
+              </p>
+            </td>
+          </tr>  
+
+          
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/disco.png' width="300">
+                </div>
+                <img src='images/disco.png' width="300">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:top">
+              <a href="">
+                <papertitle>DisCo: Towards Distinct and Coherent Visual Encapsulation in Video MLLMs </papertitle>
+              </a>
+              <br>
+              Jiahe Zhao, <strong>Rongkun Zheng</strong>, Yi Wang, Helin Wang, Hengshuang Zhao
+              <br>
+              <!--<em>ICML</em>, 2022 &nbsp <font color="red"><strong>(Spotlight)</strong></font> -->
+              <em>ICCV</em>, 2025
+
+              <br>
+              <a>pdf</a> /
+              <a>code</a>
+              <p></p>
+              <p>
+                We introduce DisCo, a novel visual encapsulation method designed to yield semantically distinct and temporally coherent visual tokens for video MLLMs.               </p>
+            </td>
+          </tr> 
+
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/SyncVIS.png' width="300">
+                </div>
+                <img src='images/SyncVIS.png' width="300">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:top">
+              <a href="https://arxiv.org/abs/2412.00882">
+                <papertitle>SyncVIS: Synchronized Video Instance Segmentation </papertitle>
+              </a>
+              <br>
+              <strong>Rongkun Zheng</strong>, Lu Qi, Xi Chen, Yi Wang, Kun Wang, Yu Qiao, Hengshuang Zhao
+              <br>
+              <!--<em>ICML</em>, 2022 &nbsp <font color="red"><strong>(Spotlight)</strong></font> -->
+              <em>NeurIPS</em>, 2024
+
+              <br>
+              <a href="https://arxiv.org/abs/2412.00882">pdf</a> /
+              <a href="https://github.com/rkzheng99/SyncVIS">code</a>
+              <p></p>
+              <p>
+                In this work, we analyze the cause of this phenomenon and the limitations of the current solutions, and propose to conduct synchronized modeling via a new framework named SyncVIS. 
+              </p>
+            </td>
+          </tr>  
+ 
+
+          
+          <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+            <td style="padding:20px;width:30%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='malle_image'>
+                  <img src='images/TMT-VIS.png' width="300">
+                </div>
+                <img src='images/TMT-VIS.png' width="300">
+              </div>
+              <script type="text/javascript">
+                function malle_start() {
+                  document.getElementById('malle_image').style.opacity = "1";
+                }
+
+                function malle_stop() {
+                  document.getElementById('malle_image').style.opacity = "0";
+                }
+                malle_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:70%;vertical-align:top">
+              <a href="https://arxiv.org/abs/2312.06630">
+                <papertitle>TMT-VIS: Taxonomy-aware Multi-dataset Joint Training for Video Instance Segmentation </papertitle>
+              </a>
+              <br>
+              <strong>Rongkun Zheng</strong>, Lu Qi, Xi Chen, Yi Wang, Kun Wang, Yu Qiao, Hengshuang Zhao
+              <br>
+              <!--<em>ICML</em>, 2022 &nbsp <font color="red"><strong>(Spotlight)</strong></font> -->
+              <em>NeurIPS</em>, 2023
+
+              <br>
+              <a href="https://arxiv.org/abs/2312.06630">pdf</a> /
+              <a href="https://github.com/rkzheng99/TMT-VIS">code</a>
+              <p></p>
+              <p>
+                In this work, we analyze that providing extra taxonomy information can help models concentrate on specific taxonomy, and propose our model TMT-VIS, which is a taxonomy-aware multi-dataset joint training framework for video instance segmentation.
+              </p>
+            </td>
+          </tr>  
+            
+
+
+
+						
+						
+           
+          <table
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <!-- 添加字体样式 -->
+                  <heading style="
+                    font-size: 22px; 
+                    display: block;
+                  ">
+                    Academic Service
+                  </heading>
+                  
+                  <p style="margin-top: 15px;">
+                    <b style="font-size: 18px;">Reviewer</b>
+                  </p>
+                  
+                  <ul style="font-family: 'Source Sans Pro', sans-serif; margin-top: 10px;">
+                    <li>CVPR (2023, 2024, 2025)</li>
+                    <li>ICCV (2023)</li>
+                    <li>ECCV (2024)</li>
+                    <li>NeurIPS (2023, 2024, 2025)</li>
+                    <li>ICLR (2023)</li>
+                  </ul>
+
+                  <p style="margin-top: 15px;">
+                    <b style="font-size: 18px;">Teaching Assistant</b>
+                  </p>
+                  
+                  <ul style="font-family: 'Source Sans Pro', sans-serif; margin-top: 10px;">
+                    <li>DASC7606: Deep Learning (Graduate course @ HKU) (2023, 2024, 2025)</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+          
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's
+                    website</a>
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
